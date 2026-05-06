@@ -26,8 +26,8 @@ def procesar_match_usuarios():
         cols_df2 = [
             'Usuario', 'Classroom: Fecha del último uso', 
             'Gmail (Web): Fecha del último uso',
-            'Correos electrónicos enviados [2026-04-03 GMT+0]', 
-            'Correos electrónicos recibidos [2026-04-03 GMT+0]', 
+            'Correos electrónicos enviados', 
+            'Correos electrónicos recibidos', 
             'Drive: fecha de la última actividad'
         ]
         df2 = pd.read_excel(ruta_archivo2, usecols=cols_df2)
